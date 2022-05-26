@@ -2,7 +2,7 @@ package abc;
 
 public class Addition {
 
-	private int addtwonumbers(int x, int y) {
+	public int addtwonumbers(int x, int y) {
 	return x+y;
 	}
 	class b{

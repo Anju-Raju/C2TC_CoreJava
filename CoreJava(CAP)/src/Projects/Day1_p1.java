@@ -8,7 +8,7 @@ public class Day1_p1 {
 	
 	public void disp1() {
 		System.out.println("Year of purchase" +2001);
-		System.out.println("make" + "suzuki");
+		System.out.println("make " + " suzuki");
 		
 	}
 	public void disp2() {
@@ -24,8 +24,6 @@ public class Day1_p1 {
 		ob.disp1();
 		ob1.disp2();
 		
-		
-
 	}
 
 }
