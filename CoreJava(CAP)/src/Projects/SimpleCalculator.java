@@ -1,5 +1,7 @@
 package Projects;
 
+//function Overloading
+
 public class SimpleCalculator {
 	void prnsqr(int i) {
 		System.out.println("Square of the integer" + i + "is" +i*i);

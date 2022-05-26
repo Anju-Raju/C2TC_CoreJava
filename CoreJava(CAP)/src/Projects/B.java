@@ -1,5 +1,6 @@
 package Projects;
 
+//Example program for method overriding
 class A{
 	void run()
 	{
