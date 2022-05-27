@@ -1,17 +1,17 @@
 package Projects;
 //Assignment 2
 public class Library {
-	int acc_num;
+	int Acc_num;
 	String Title;
 	String Author;
 	
 	public void input()
 	{
-		System.out.println("Access number "+1054);	
+		System.out.println("Acc_num "+1054);	
 		}
 	
 	public void compute() {
-		System.out.println("The number of days late: " + 3 +" Each day fine Rs:5, Now the total fine is " +15 );
+		System.out.println("Number Of Days late: " + 3 +" Each day fine Rs:5, TOTAL FINE: " +15 );
 	}
 	
 	public void display()
