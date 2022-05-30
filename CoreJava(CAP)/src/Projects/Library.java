@@ -1,4 +1,7 @@
 package Projects;
+
+import java.util.Scanner;
+
 //Assignment 2
 public class Library {
 	int Acc_num;
@@ -7,17 +10,33 @@ public class Library {
 	
 	public void input()
 	{
-		System.out.println("Acc_num "+1054);	
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter the Title");
+		Title = sc.nextLine();
+		System.out.println("");
+		
+		System.out.println("Enter the Author name");
+		Author = sc.nextLine();
+		
+		System.out.println("Enter the account number");
+		Acc_num = sc.nextInt();
 		}
 	
 	public void compute() {
-		System.out.println("Number Of Days late: " + 3 +" Each day fine Rs:5, TOTAL FINE: " +15 );
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter the numbe of days late:" );
+		int days=sc.nextInt();
+		int fine = (days*5);
+		System.out.println("Fine = Rs:"+fine );
 	}
 	
 	public void display()
 	{
-		System.out.println("Accession Number       Title           Author  ");
-		System.out.print("     1054         Java Full Stack     Anju Raju ");
+		System.out.println("Acc_Num\tTitle\tAuthor");
+		System.out.println(Acc_num  + "\t"+Title+"\t" +Author);
+		
+		
+		
 	}
 
 	public static void main(String[] args) {

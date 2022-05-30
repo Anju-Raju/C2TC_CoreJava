@@ -1,5 +1,7 @@
 package Projects;
 
+//Static Keyword
+
 public class SK {
 	static int age;
 

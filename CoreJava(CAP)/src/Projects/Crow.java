@@ -13,7 +13,7 @@ class Parrots extends Birds{
 	}
 }
 
-public class Crow extends Bird {
+public class Crow extends Birds {
 	void whatcolorAmI() {
 		System.out.println("I am Black");
 	}

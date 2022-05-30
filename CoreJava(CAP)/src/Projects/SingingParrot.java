@@ -1,5 +1,5 @@
 package Projects;
-//Example Program for multi lineInheritance
+//Example Program for multi line Inheritance
 class Bird{
 	void fly() {
 		System.out.println("I am a Bird");
