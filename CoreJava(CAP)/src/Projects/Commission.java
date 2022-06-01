@@ -34,10 +34,10 @@ public class Commission {
 	{
 		System.out.println("Commission = 5%");
 	}
-	else if(30000<=sales_amt<50000) {
+	else if(30000 <=sales_amt<50000) {
 		System.out.println("Commission = 3%");
 	}
-	else(sales_amt<30000)
+	else
 	{
 		System.out.println("No Commission");
 	}
